@@ -1,0 +1,30 @@
+{
+  "name": "adelktr/open-source-td3",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Adelktr\\OpenSourceTd3\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Adel Khiter",
+      "email": "khiter.adel@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpstan/phpstan": "^1.10",
+    "phpunit/phpunit": "^10.2",
+    "symfony/var-dumper": "^6.3"
+  },
+  "require": {
+    "symfony/http-client": "^6.3",
+    "symfony/dom-crawler": "^6.3",
+    "symfony/css-selector": "^6.3"
+  },
+  "scripts": {
+    "phpstan": "@php vendor/bin/phpstan analyse src --level=max",
+    "test": "@php vendor/bin/phpunit tests"
+  }
+}
