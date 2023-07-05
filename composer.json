@@ -19,9 +19,9 @@
     "symfony/var-dumper": "^6.3"
   },
   "require": {
-    "symfony/http-client": "^6.3",
-    "symfony/dom-crawler": "^6.3",
-    "symfony/css-selector": "^6.3"
+    "symfony/http-client": "^6.0||^6.3",
+    "symfony/dom-crawler": "^6.0||^6.3",
+    "symfony/css-selector": "^6.0||^6.3"
   },
   "scripts": {
     "phpstan": "@php vendor/bin/phpstan analyse src --level=max",
